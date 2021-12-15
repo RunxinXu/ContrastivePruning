@@ -1,6 +1,6 @@
 # ContrastivePruning
 
-Source code for AAAI 2022 paper: From Dense to Sparse: Contrastive Pruning for Better Pre-trained Language Model Compression.
+Source code for AAAI 2022 paper: [From Dense to Sparse: Contrastive Pruning for Better Pre-trained Language Model Compression](https://arxiv.org/abs/2112.07198).
 
 Coming soon!
 
@@ -11,7 +11,7 @@ Most model pruning approaches only consider task-specific knowledge towards down
 Therefore, we propose ContrAstive Pruning (*CAP*), a general pruning framework under the pre-training and fine-tuning paradigm, which aims at maintaining both task-specific and task-agnostic knowledge during pruning.
 *CAP* is designed as a general framework, compatible with both structured and unstructured pruning. 
 Unified in contrastive learning, *CAP* encourage the pruned model to learn from the pre-trained model, the snapshots (intermediate models during pruning), and the fine-tuned model, through three contrastive modules, *PrC*, *SnC*, and *FiC*, respectively.
-You can refer to our [paper]() for more details.
+You can refer to our [paper](https://arxiv.org/abs/2112.07198) for more details.
 
 <div align=center>
 <img width="450" height="650" src="./cap.png"/>
